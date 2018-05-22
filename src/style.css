@@ -1,0 +1,35 @@
+.box {
+  border: solid lightgreen 2px;
+  width: auto;
+  height: 100px;
+  background-color: white;
+  padding: 10px;
+}
+
+.greenTriangle {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 14px solid lightgreen;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+
+.whiteTriangle {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid white;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.littleBox {
+  width: 100%;
+  height: auto;
+}
+.bigBox {
+  width: 100%;
+  height: 100px;
+}
